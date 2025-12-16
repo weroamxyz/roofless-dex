@@ -29,7 +29,7 @@ const campaigns = [
     campaign_id: "130",
     title: "Test campaign ABC",
     description: "A new era begins. test campaign ABC is here.",
-    image: "/logo.webp",
+    image: "/pnl/poster_bg_7.webp",
     start_time: new Date("2025-10-25T00:00:00Z").toISOString(),
     end_time: new Date("2025-11-24T23:59:59Z").toISOString(),
     href: "/",
