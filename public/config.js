@@ -20,11 +20,11 @@ window.__RUNTIME_CONFIG__ = {
   "VITE_HAS_SECONDARY_LOGO": "true",
   "VITE_ENABLED_MENUS": "Trading,Leaderboard,Vaults,Portfolio,Markets,Rewards",
   "VITE_CUSTOM_MENUS": "",
-  "VITE_ENABLE_SERVICE_DISCLAIMER_DIALOG": "false",
+  "VITE_ENABLE_SERVICE_DISCLAIMER_DIALOG": "true",
   "VITE_ENABLE_CAMPAIGNS": "false",
-  "VITE_TELEGRAM_URL": "",
+  "VITE_TELEGRAM_URL": "https://t.me/Roofless_official",
   "VITE_DISCORD_URL": "",
-  "VITE_TWITTER_URL": "",
+  "VITE_TWITTER_URL": "https://x.com/RooflessDEX",
   "VITE_SEO_SITE_NAME": "Roofless",
   "VITE_SEO_SITE_DESCRIPTION": "Roofless is a decentralized liquidity hub under the Roam ecosystem, connecting traders, liquidity providers, and protocols through a unified PREP DEX infrastructure.",
   "VITE_SEO_SITE_URL": "https://dex.orderly.network/broker-test-1343/",
@@ -39,6 +39,6 @@ window.__RUNTIME_CONFIG__ = {
   "VITE_TRADING_VIEW_COLOR_CONFIG": "",
   "VITE_ANALYTICS_SCRIPT": "",
   "VITE_SYMBOL_LIST": "PERP_BTC_USDC,PERP_ETH_USDC,PERP_SOL_USDC",
-  "VITE_RESTRICTED_REGIONS": "",
+  "VITE_RESTRICTED_REGIONS": "United States,China,China - Hong Kong,South Korea,Japan,Iran,North Korea,Syria,Cuba",
   "VITE_WHITELISTED_IPS": ""
 };
