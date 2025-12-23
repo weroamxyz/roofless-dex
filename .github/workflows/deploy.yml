@@ -35,6 +35,21 @@ jobs:
       - name: Build Artifact
         run: yarn build
 
+      - name: Check build output
+        run: |
+            echo "=== 当前工作目录 ==="
+            pwd
+            echo ""
+            echo "=== 目录结构 ==="
+            ls -la
+            echo ""
+            echo "=== 可能的构建输出目录 ==="
+            [ -d "dist" ] && echo "dist 目录存在，内容：" && ls -la dist/ || echo "dist 目录不存在"
+            [ -d "build" ] && echo "build 目录存在，内容：" && ls -la build/ || echo "build 目录不存在"
+            [ -d "out" ] && echo "out 目录存在，内容：" && ls -la out/ || echo "out 目录不存在"
+            [ -d "public" ] && echo "public 目录存在，内容：" && ls -la public/ || echo "public 目录不存在"
+            [ -d ".next" ] && echo ".next 目录存在" && ls -la .next/ || echo ".next 目录不存在"
+
       - name: Extract repository name
         run: |
           REPO_NAME=$(echo "${GITHUB_REPOSITORY}" | cut -d'/' -f2)
